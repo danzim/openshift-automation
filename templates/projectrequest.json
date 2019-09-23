@@ -1,0 +1,13 @@
+{
+    "kind": "Project",
+    "apiVersion": "v1",
+    "displayName": "{{.DisplayName}}",
+    "description": "{{.Description}}",
+    "metadata": {
+        "name": "{{.Name}}",
+        "annotations": {
+            "openshift.io/description": "{{.Description}}",
+            "openshift.io/display-name": "{{.DisplayName}}"
+        }
+    }
+}
